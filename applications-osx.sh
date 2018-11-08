@@ -1,5 +1,6 @@
 # install casks/applications
 echo "all aboard!!!"
+
 casks=(
     avast-security
     dashlane
@@ -15,8 +16,7 @@ casks=(
     steam
     visual-studio-code  
 )
-
-brew cask install ${casks[@]}
+brew cask install ${casks[@]} || true
 
 echo "we're done..."
 echo "good-bye!!!"
