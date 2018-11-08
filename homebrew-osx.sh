@@ -5,7 +5,6 @@
 # free to run multiple times without issues
 #
 
-
 echo "starting script..."
 
 # check for Homebrew, install if we don't have it
@@ -31,32 +30,11 @@ packages=(
     vim
 )
 
-
 echo "installing various packages..."
 brew install ${packages[@]}
 
 echo "cleaning time!!!"
 brew cleanup
-
-# install casks/applications
-echo "all aboard!!!"
-casks=(
-    avast-security
-    dashlane
-    discord
-    firefox
-    google-chrome
-    iterm2
-    malwarebytes
-    messenger
-    microsoft-office
-    slack
-    spotify
-    steam
-    visual-studio-code  
-)
-
-brew cask install ${casks[@]}
 
 # install ruby gems
 echo "installing ruby gems..."
@@ -65,5 +43,3 @@ rubygems=(
 )
 sudo gem install ${rubygems[@]}
 
-echo "we're done..."
-echo "good-bye!!!"
