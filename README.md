@@ -5,7 +5,7 @@ bash script for installing apps onto osx work stations
     
 ### 1. install from github   
 ### 2. open terminal   
-### 3. cd to /homebrew-osx/   
+### 3. cd to directory where homebrew-osx.sh is located    
 ### 4. do: ```chmod -x ./homebrew-osx.sh```    
 ### 5. : ```./homebrew-osx.sh```   
 ### 4. : ```chmod -x ./applications-osx.sh```   
